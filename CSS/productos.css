@@ -23,6 +23,12 @@
     margin: 5px;
 }
 
+.card-container{
+    display: flex;
+    align-content: space-between;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;}
 
 
 .card2:hover{

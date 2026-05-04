@@ -40,11 +40,12 @@ ul{
 }*/
 
 .main{
-    background-image: url(IMG/FONDOCLARO.jpg);
+    background-image: url("../IMG/FONDOCLARO.jpg");    
     opacity: 0.20;
     background-size: cover;
     background-position: center;
     height: 100vh;
+    position: relative;
 }
 
 main h3 {
@@ -133,13 +134,12 @@ footer ul a{
     text-decoration: none;
 }*/
 
-.card-container{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+.card-container{    display: flex;
     align-content: space-between;
     justify-content: space-around;
+    flex-direction: row;
 }
+
 
 
 .card{
@@ -153,7 +153,7 @@ footer ul a{
 
 .card:hover{
     transition: 0.5s;
-    padding: 10px;
+    padding: 5px;
     background-color: #D0D0D0;
     color: black;
 }
